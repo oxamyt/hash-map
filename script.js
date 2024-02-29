@@ -29,7 +29,7 @@ class Hashmap {
 
   // Modulo method
   modulo(hash) {
-    return hash % 16;
+    return hash % this.capacity;
   }
 
   // Resize method to increase bucket array capacity
